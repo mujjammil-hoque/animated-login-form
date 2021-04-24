@@ -1,0 +1,133 @@
+body{
+   background:#34459e;
+   font-family:sans-serif;
+}
+
+.box{
+	background:#191919;
+	width:330px;
+	padding:40px;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	text-align:center;
+	padding-top:-10px;
+	padding-top:10px;
+	border:3px solid #F0F0F0;
+	box-shadow:0px 1px 12px 4px black;
+	
+}
+
+
+.box h1{
+	color:gold;
+	font-weight:600;
+}
+.box input[type="text"],.box input[type="password"]{
+	border:0;
+	background:none;
+	margin:20px auto;
+	
+	border:2px solid #B20353;
+	padding:14px;
+	width:200px;
+	outline:none;
+	color:white;
+	border-radius:24px;
+	transition:0,25s;
+	font-size:16px;
+}
+
+
+.box input[type="submit"]{
+	border:0;
+	background:linear-gradient(#00f300,#13400d);
+	margin:20px auto;
+	text-align:center;
+	
+	padding:14px;
+	width:150px;
+	outline:none;
+	color:white;
+	border-radius:30px;
+	transition:0,25s;
+    margin-left:18px;
+	font-size:18px;
+	
+	
+}
+
+.box input[type="submit"]:hover{
+	background:#4AF7330;
+	background:linear-gradient(#5a6357b5,#d504ff);
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+	width:280px;
+	border-color:#4AF733;
+}
+.or{
+	color:white;
+	margin-left:110px;
+}
+
+#emlicon{
+	color:white
+}
+
+#passlicon{
+	color:white
+}
+
+#lglicon{
+	color:white
+}
+
+
+}
+
+
+#fb:hover{
+	color:blue;
+	background:white;
+}
+
+#google{
+	font-size:30px;
+	color:white;
+	outline:none;
+	
+}
+#google:hover{
+	color:red;
+	background:white;
+	border-radius:100%;
+	border:none;
+	outline:none;
+	transform:scale(1.5);
+}
+
+#twitter{
+	font-size:30px;
+	color:white;
+	outline:none;
+	border-radius:100%;
+}
+#twitter:hover{
+	color:#339AF0;
+	background:white;
+	transform:scale(1.5);
+	border-radius:100%;
+}
+
+.create{
+     outline:none;
+	text-decoration:none;
+	width:200px;
+	margin-right:180px;
+	color:green
+}
+.create:hover{
+	color:tomato
+}
